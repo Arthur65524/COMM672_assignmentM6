@@ -19,7 +19,7 @@ ul {
     list-style: none;
 }
 .nav-container {
-    margin: 020px 100px;
+    margin: 20px 100px;
 }
 .nav-container img {
     width: 300px;
@@ -49,14 +49,51 @@ ul {
     width: 55%;
 }
 h1 {
-    font-size: 1.5em;
+    font-size: 1.75em;
     font-weight: bold;
+}
+h2 {
+    font-size: 1.50em;
+    font-weight: bold;
+    text-align: center;
+}
+h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+.features-container h2 {
+    padding: 40px 0;
+}
+.features {
+    display: flex;
+    justify-content: space-evenly;
+}
+.cat-care, .quizzes, .community {
+    width: 325px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.testimonials-container h2 {
+    color: #FFFFFF;
+    padding: 40px 0;
 }
 .testimonials-container {
     background-color: #222e50;
 }
 .testimonials {
     background-color: #FFFFFF;
+}
+
+
+.team-container h2 {
+    padding: 40px 0;
 }
 .footer-container {
     background-color: lightgray;
