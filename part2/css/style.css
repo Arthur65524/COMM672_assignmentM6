@@ -36,7 +36,7 @@ ul {
 }
 .hero-container {
     background-color: #FFCF83;
-    padding: 50px 100px;
+    padding: 50px 200px;
     display: flex;
     gap: 4em;
     justify-content: center;
@@ -46,7 +46,7 @@ ul {
     width: 400px;
 }
 .hero-container article p {
-    width: 55%;
+    width: 65%;
 }
 h1 {
     font-size: 1.75em;
@@ -61,19 +61,29 @@ h3 {
     font-size: 1.25em;
     font-weight: bold;
 }
-.features-container h2 {
-    padding: 40px 0;
-}
-.features {
+.features-container {
+    margin: 30px;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.features-container h2 {
+    width: 100%;
 }
 .cat-care, .quizzes, .community {
-    width: 325px;
+    width: 375px;
     background-color: #FFFFFF;
+    justify-content: center;
     text-align: center;
+    padding: 20px 40px;
 }
-
+.features-container p {
+    padding-bottom: 20px;
+}
+.features-container h3 {
+    padding: 10PX;
+}
 
 
 
@@ -83,13 +93,25 @@ h3 {
 .testimonials-container h2 {
     color: #FFFFFF;
     padding: 40px 0;
+    width: 100%;
 }
+
+
+
+
+
+
+
 .testimonials-container {
     background-color: #222e50;
+    display: flex;
+    flex-wrap: wrap;
 }
 .testimonials {
     background-color: #FFFFFF;
 }
+
+
 
 
 .team-container h2 {
