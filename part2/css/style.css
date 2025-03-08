@@ -82,35 +82,31 @@ h3 {
     padding-bottom: 20px;
 }
 .features-container h3 {
-    padding: 10PX;
+    padding: 20PX;
 }
-
-
-
-
-
-
 .testimonials-container h2 {
     color: #FFFFFF;
-    padding: 40px 0;
     width: 100%;
 }
-
-
-
-
-
-
-
 .testimonials-container {
     background-color: #222e50;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    padding: 40px;
 }
 .testimonials {
     background-color: #FFFFFF;
+    width: 360px;
+    height: 150px;
+    text-align: left;
+    padding: 20px; 
 }
-
+.testimonials span {
+    font-weight: bold;
+}
 
 
 
