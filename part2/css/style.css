@@ -19,16 +19,16 @@ ul {
     list-style: none;
 }
 .nav-container {
-    margin: 20px 100px;
+    padding: 20px 100px;
 }
 .nav-container img {
     width: 300px;
 }
 .nav-container ul {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     gap: 30px;
-    justify-content: flex-end;
 }
 .nav-container li:first-child {
     order: -1;
