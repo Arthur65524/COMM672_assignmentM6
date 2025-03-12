@@ -18,21 +18,19 @@ body {
 ul {
     list-style: none;
 }
-.nav-container {
+
+.nav-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1em;
     padding: 20px 100px;
+}
+.nav-container li:first-child {
+    margin-right: auto;
 }
 .nav-container img {
     width: 300px;
-}
-.nav-container ul {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 30px;
-}
-.nav-container li:first-child {
-    order: -1;
-    margin-right: auto;
 }
 .hero-container {
     background-color: #FFCF83;
