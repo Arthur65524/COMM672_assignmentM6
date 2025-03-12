@@ -114,10 +114,10 @@ h3 {
     justify-content: center;
     text-align: center;
     gap: 40px;
-    padding: 40px;
+    padding: 40px 0;
 }
 .team-block {
-    width: 250px;
+    width: 225px;
 }
 .team-block p:first-of-type {
     font-weight: bold;
